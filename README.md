@@ -39,7 +39,7 @@ print("存储完成")
 
 在建立关系矩阵时，一共会出现25种情况，如下表所示：
 
-![](https://github.com/Wish-s/classification/raw/master/relationship.jpg) 
+![](/relationship.jpg) 
 
 
 **计算矩阵代码如下：**
