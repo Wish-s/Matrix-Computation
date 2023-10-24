@@ -5,6 +5,8 @@
 - Extract fishnet x, y coordinates and UMT values.
 - Export property data (txt file).
 
+  *In this project, the Distance text file does not contain the table header, while the Relationhip text file contains the table header.*
+
 # Compute the first matrix: the distance matrix.
 - Import
  ```
@@ -13,8 +15,9 @@ import pandas as pd
 from scipy.spatial.distance import pdist, squareform
 ```
 - Read the txt file
+**(Modify the file path here)**
  ```
-df=pd.read_csv('/public/home/ac73auhrcp/UMT/fishnet300_4.txt',delimiter=',',header='infer')
+df=pd.read_csv('/public/home/ac73auhrcp/UMT/Distance.txt',delimiter=',',header='infer')
  ```
 - Read the x and y coordinates
  ```
@@ -50,8 +53,9 @@ import numpy as np
 import os 
 ```
 - Read the txt file
+**(Modify the file path here)**
  ```
-with open(r"/public/home/ac73auhrcp/UMT/fishnet300_41.txt","r",encoding='UTF-8')as f:
+with open(r"/public/home/ac73auhrcp/UMT/Relationship.txt","r",encoding='UTF-8')as f:
     point = f.readlines()
  ```
 - Iterates each property value into an empty array
