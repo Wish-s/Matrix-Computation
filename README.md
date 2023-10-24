@@ -60,9 +60,10 @@ with open(r"/public/home/ac73auhrcp/UMT/Relationship.txt","r",encoding='UTF-8')a
  ```
 - Iterates each property value into an empty array
  ```
-with open(r"/public/home/ac73auhrcp/UMT/fishnet300_41.txt","r",encoding='UTF-8')as f:
-    point = f.readlines()
 points=[]
+for p in point:
+    data = p.strip().split(',')
+    points.append(data)
  ```
 - Creates an empty matrix with n (the array length) dimensions
  ```
