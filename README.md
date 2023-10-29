@@ -1,8 +1,11 @@
 # Matrix Computation
 # Background
-In this project, we used urban morphology type data. The term ‘urban morphology’ refers to the patterns of building structures in the urban settlements.Referring to the definition of Local climate zones (LCZs) by Stewart and Oke (2012), in this study we define a UMT as a built environment with a similar size and density of buildings.<br>
-The UMT data has five categories. **1 indicates Compact High-rise,2 Compact Low-rise, 3 Open Mid-rise, 4 Sparsely Built, and 5 Non-urban Area.**<br>
-We differentiate the urban morphology type into pixel scales.A resolution of 300 × 300 m was set to calculate the properties for UMT delineation. We hope to calculate the distance matrix between different pixels, as well as the UMT type relationship matrix between different pixels.
+In this project, we used urban morphology type data. <br><br>
+The term ‘urban morphology’ refers to **the patterns of building structures in the urban settlements**.<br>
+Referring to the definition of Local climate zones (LCZs) by Stewart and Oke (2012), in this study we define a UMT as **a built environment with a similar size and density of buildings**.<br><br>
+The UMT data has five categories. **1 indicates Compact High-rise,2 Compact Low-rise, 3 Open Mid-rise, 4 Sparsely Built, and 5 Non-urban Area.**<br><br>
+We differentiate the urban morphology type into pixel scales.A resolution of 300 × 300 m was set to calculate the properties for UMT delineation.<br>
+We hope to calculate **the distance matrix** between different pixels, as well as **the UMT type relationship matrix** between different pixels.<br>
 # Preparation
 - Create fishnet points for Urban Morphology Type (UMT) data.<br>
 - Extract fishnet x, y coordinates and UMT values.
