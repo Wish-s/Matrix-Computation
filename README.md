@@ -45,8 +45,6 @@ print("Complete！")
 
 # Compute the second matrix: the relationship matrix
 
-**1 indicates Compact High-rise,2 Compact Low-rise, 3 Open Mid-rise, 4 Sparsely Built, and 5 Non-urban Area.**
-
 When building the relationship matrix, a total of 25 cases will occur, as shown in the following table.
 
 ![](/relationship.jpg) 
