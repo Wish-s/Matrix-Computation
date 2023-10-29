@@ -34,7 +34,7 @@ distances = pdist(dist)
 - Store the distance matrix
  ```
 np.savetxt('/public/home/ac73auhrcp/UMT/result300_4.csv',distance_matrix, delimiter=',')
-print("存储完成")
+print("Complete！")
  ```
 
 # Compute the second matrix: the relationship matrix
