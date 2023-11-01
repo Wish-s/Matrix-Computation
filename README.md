@@ -39,7 +39,7 @@ distances = pdist(dist)
  ```
 - Store the distance matrix
  ```
-np.savetxt('/public/home/ac73auhrcp/UMT/result300_4.csv',distance_matrix, delimiter=',')
+np.savetxt('/public/home/ac73auhrcp/UMT/Result_Distance.csv',distance_matrix, delimiter=',')
 print("Complete！")
  ```
 
@@ -86,5 +86,5 @@ for i in range(len(points)):
  ```
 - Store the relationship matrix
  ```
-np.savetxt('/public/home/ac73auhrcp/UMT/relationship_3004.csv', rr, delimiter=',')
+np.savetxt('/public/home/ac73auhrcp/UMT/Result_relationship.csv', rr, delimiter=',')
  ```
