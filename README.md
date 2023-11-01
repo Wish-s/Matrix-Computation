@@ -3,9 +3,9 @@
 In this project, we used urban morphology type data. <br><br>
 The term ‘urban morphology’ refers to **the patterns of building structures in the urban settlements**.<br>
 Referring to the definition of Local climate zones (LCZs) by Stewart and Oke (2012), in this study we define a UMT as **a built environment with a similar size and density of buildings**.<br><br>
-The UMT data has five categories. **1 indicates Compact High-rise,2 Compact Low-rise, 3 Open Mid-rise, 4 Sparsely Built, and 5 Non-urban Area.**<br><br>
-We differentiate the urban morphology type into pixel scales.A resolution of 300 × 300 m was set to calculate the properties for UMT delineation.<br>
-We hope to calculate **the distance matrix** between different pixels, as well as **the UMT type relationship matrix** between different pixels.<br>
+The UMT data has five categories. **1 indicates Compact High-rise, 2 Compact Low-rise, 3 Open Mid-rise, 4 Sparsely Built, and 5 Non-urban Area.**<br><br>
+We differentiate the urban morphology type into pixel scales. A resolution of 300 × 300 m was set to calculate the properties for UMT delineation.<br>
+We aim to calculate **the distance matrix** between different pixels, as well as **the UMT type relationship matrix** between different pixels.<br>
 # Preparation
 - Create fishnet points for Urban Morphology Type (UMT) data.<br>
 - Extract fishnet x, y coordinates and UMT values.
@@ -45,7 +45,9 @@ print("Complete！")
 
 # Compute the second matrix: the relationship matrix
 
-When building the relationship matrix, a total of 25 cases will occur, as shown in the following table.
+The relationship matrix is used to express the attribute relationships between fishnet points. That is, to express **the relationships between a point and itself and all other points**.<br>
+
+As mentioned above, the UMT data has 5 categories. When building the relationship matrix, **a total of 25 cases will occur**, as shown in the following table.
 
 ![](/relationship.jpg) 
 
