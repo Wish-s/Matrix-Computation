@@ -17,6 +17,7 @@ We aim to calculate **the distance matrix** between different pixels, as well as
 - 1.The UMT data: UMT2017.tif;<br>
 - 2.The boundary data: Boundary.shp;<br>
 - 3.The 300 × 300 m fishnet point data: Fishnet_point.shp.<br>
+- 4.The 300 × 300 m fishnet area data: Fishnet_area.shp.<br>
 
 # Compute the first matrix: the distance matrix.
 - Import
